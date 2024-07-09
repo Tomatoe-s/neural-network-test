@@ -104,14 +104,7 @@ public:
         }
 
         // --- Calculate total loss at the end of each epoch
-        if (epoch % 10 == 0) {
-            std::vector<double> y_preds;
-            for (const auto& x : data) {
-                y_preds.push_back(feedForward(x));
-            }
-            double loss = math::mse_loss(trues, y_preds);
-            std::cout << "Epoch " << epoch << " loss: " << loss << std::endl;
-        }
+        
     }
 }
 };
