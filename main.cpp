@@ -27,7 +27,7 @@ std::vector<double> all_y_trues = {1, 0, 0, 1};
     std::cout << "Emily: " << network.feedForward(emily) << std::endl;
 std::cout << "Frank: " << network.feedForward(frank) << std::endl;
 std::cout << "Me: " << network.feedForward(who) << std::endl;
-
-
+int a = 0;
+std::cin >> a; 
 
 }
