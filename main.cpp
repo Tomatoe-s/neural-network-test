@@ -23,7 +23,7 @@ std::vector<double> all_y_trues = {1, 0, 0, 1};
     network.train(data,all_y_trues);
     std::vector<double> emily = {-7,-3};
     std::vector<double> frank = {20,2};
-    std::vector<double> who = {38,5};
+    std::vector<double> who = {20,5};
     std::cout << "Emily: " << network.feedForward(emily) << std::endl;
 std::cout << "Frank: " << network.feedForward(frank) << std::endl;
 std::cout << "Me: " << network.feedForward(who) << std::endl;
